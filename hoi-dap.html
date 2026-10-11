@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Hỏi đáp | AI Native Organization | Ba Sao</title>
+  <meta name="description" content="Gửi câu hỏi về AI Native Organization vào hòm thư và xem các câu hỏi đã được trả lời.">
+  <link rel="icon" href="assets/img/logo-basao.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>try{if(!localStorage.getItem('aiNative.nguoiHoc'))document.documentElement.className+=' cho-ghi-danh'}catch(e){}</script>
+</head>
+<body>
+  <a class="bo-qua" href="#noi-dung">Đi thẳng tới nội dung</a>
+
+  <header class="dau-trang">
+    <div class="khung">
+      <a class="thuong-hieu" href="index.html">
+        <img src="assets/img/logo-basao.jpg" alt="Logo Ba Sao (Tristar Catering Co.)" width="232" height="160">
+        <span>AI Native<small>Cùng học, cùng làm</small></span>
+      </a>
+      <nav aria-label="Menu chính">
+        <button class="nut-menu" type="button" aria-expanded="false" aria-controls="menu">
+          <span aria-hidden="true"></span>Menu
+        </button>
+        <ul class="menu" id="menu">
+          <li><a href="index.html">Trang chủ</a></li>
+          <li><a href="kien-thuc.html">Kiến thức</a></li>
+          <li><a href="xep-hang.html">Xếp hạng</a></li>
+          <li><a href="thu-vien.html">Thư viện</a></li>
+          <li><a href="video.html">Video</a></li>
+          <li><a href="hoi-dap.html" aria-current="page">Hỏi đáp</a></li>
+          <li><a href="thu-ngay.html">Thử ngay</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="tieu-de-trang">
+    <div class="khung">
+      <span class="ic to" data-ic="thu"></span>
+      <h1>Hỏi đáp</h1>
+      <p>Chưa rõ chỗ nào về AI Native thì anh chị cứ hỏi. Xem trước các câu đã có lời đáp, chưa thấy thì gửi vào hòm thư.</p>
+    </div>
+  </div>
+
+  <main class="phan" id="noi-dung">
+    <div class="khung bo-cuc-hoi-dap">
+
+      <aside class="the-hom-thu" aria-labelledby="tieu-de-hom-thu">
+        <h2 id="tieu-de-hom-thu">Hòm thư đặt câu hỏi</h2>
+        <ol class="cac-buoc">
+          <li><span class="ic nho" data-ic="but"></span><span>Anh chị viết câu hỏi. <strong>Không cần ghi tên</strong> nếu không muốn.</span></li>
+          <li><span class="ic nho" data-ic="dong-ho"></span><span>Bộ phận Đào tạo (L&amp;D) trả lời trong <strong>3 ngày làm việc</strong>.</span></li>
+          <li><span class="ic nho" data-ic="nhom"></span><span>Câu hỏi hay được đăng lên trang này, không kèm tên người hỏi, để mọi người cùng xem.</span></li>
+        </ol>
+        <div id="hom-thu"><span class="sap-co">Hòm thư sắp mở</span></div>
+      </aside>
+
+      <section aria-labelledby="tieu-de-da-tra-loi">
+        <h2 id="tieu-de-da-tra-loi">Câu hỏi đã trả lời</h2>
+        <div class="bo-loc">
+          <div class="nhom-chip" id="loc-chu-de" role="group" aria-label="Lọc theo chủ đề"></div>
+          <input class="o-tim" id="tim-hoi-dap" type="search" placeholder="Tìm câu hỏi…" aria-label="Tìm câu hỏi">
+        </div>
+        <p class="dem-kq" id="dem-hoi-dap" aria-live="polite"></p>
+        <div class="hoi-dap" id="ds-hoi-dap">
+          <p class="trong-rong">Trang này cần bật JavaScript trên trình duyệt để hiện danh sách câu hỏi.</p>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="chan-trang">
+    <div class="khung">
+      <p>Ba Sao · Bộ phận Đào tạo (L&amp;D)</p>
+      <p>Muốn đọc kỹ hơn? <a href="kien-thuc.html">Xem trang Kiến thức</a></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/icons.js"></script>
+  <script src="data/hoi-dap.js"></script>
+  <script src="data/cau-hinh.js"></script>
+  <script src="assets/js/am-thanh.js"></script>
+  <script src="assets/js/nguoi-hoc.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

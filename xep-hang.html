@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Bảng xếp hạng | AI Native Organization | Ba Sao</title>
+  <meta name="description" content="Năm anh chị hoàn thành khóa học AI Native Organization sớm nhất, và hành trình học của anh chị.">
+  <link rel="icon" href="assets/img/logo-basao.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>try{if(!localStorage.getItem('aiNative.nguoiHoc'))document.documentElement.className+=' cho-ghi-danh'}catch(e){}</script>
+</head>
+<body id="trang-xep-hang">
+  <a class="bo-qua" href="#noi-dung">Đi thẳng tới nội dung</a>
+
+  <header class="dau-trang">
+    <div class="khung">
+      <a class="thuong-hieu" href="index.html">
+        <img src="assets/img/logo-basao.jpg" alt="Logo Ba Sao (Tristar Catering Co.)" width="232" height="160">
+        <span>AI Native<small>Cùng học, cùng làm</small></span>
+      </a>
+      <nav aria-label="Menu chính">
+        <button class="nut-menu" type="button" aria-expanded="false" aria-controls="menu">
+          <span aria-hidden="true"></span>Menu
+        </button>
+        <ul class="menu" id="menu">
+          <li><a href="index.html">Trang chủ</a></li>
+          <li><a href="kien-thuc.html">Kiến thức</a></li>
+          <li><a href="xep-hang.html" aria-current="page">Xếp hạng</a></li>
+          <li><a href="thu-vien.html">Thư viện</a></li>
+          <li><a href="video.html">Video</a></li>
+          <li><a href="hoi-dap.html">Hỏi đáp</a></li>
+          <li><a href="thu-ngay.html">Thử ngay</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="noi-dung">
+    <!-- Phần mở đầu: cúp và bục vinh danh -->
+    <section class="xh-mo-dau">
+      <div class="khung">
+        <div class="xh-tieu-de">
+          <svg class="xh-cup" viewBox="0 0 220 200" role="img" aria-label="Minh họa: chiếc cúp vàng giữa pháo giấy">
+            <g fill="#f2b705"><rect x="18" y="30" width="10" height="5" rx="2" transform="rotate(-25 23 32)"/><rect x="188" y="52" width="10" height="5" rx="2" transform="rotate(30 193 54)"/><circle cx="40" cy="92" r="4"/><circle cx="196" cy="112" r="3"/></g>
+            <g fill="#fff"><rect x="176" y="18" width="10" height="5" rx="2" transform="rotate(-40 181 20)"/><rect x="26" y="130" width="10" height="5" rx="2" transform="rotate(20 31 132)"/><circle cx="58" cy="24" r="3"/><circle cx="170" cy="146" r="4" opacity=".7"/></g>
+            <g fill="#8fd3ad"><circle cx="20" cy="66" r="3"/><rect x="194" y="84" width="10" height="5" rx="2" transform="rotate(-15 199 86)"/><circle cx="150" cy="12" r="3"/></g>
+            <path d="M70 40H42c0 30 10 46 34 50M150 40h28c0 30-10 46-34 50" fill="none" stroke="#f2b705" stroke-width="9" stroke-linecap="round"/>
+            <path d="M64 26h92v34c0 30-18 52-46 52S64 90 64 60z" fill="#f2b705"/>
+            <path d="M78 34h14v30c0 16 4 28 12 36-16-4-26-20-26-40z" fill="#fff" opacity=".35"/>
+            <path d="M110 46l6 13 14 2-10 10 2 14-12-7-12 7 2-14-10-10 14-2z" fill="#fff"/>
+            <rect x="100" y="110" width="20" height="26" fill="#c98a00"/>
+            <rect x="78" y="134" width="64" height="14" rx="5" fill="#f2b705"/>
+            <rect x="66" y="148" width="88" height="22" rx="6" fill="#fff"/>
+            <rect x="84" y="155" width="52" height="8" rx="4" fill="#cfe3d8"/>
+          </svg>
+          <h1>Bảng xếp hạng</h1>
+          <p>Năm anh chị hoàn thành khóa học AI Native Organization sớm nhất được lên bục. Ai xong trước, đứng trên.</p>
+          <ul class="xh-so-lieu" id="xh-so-lieu" aria-live="polite"></ul>
+        </div>
+
+        <p class="xh-bao-tin" id="xh-bao-tin" role="status">Đang tải bảng xếp hạng…</p>
+
+        <ol class="xh-buc" id="xh-buc" aria-label="Ba hạng đầu"></ol>
+      </div>
+    </section>
+
+    <!-- Hạng 4, 5 và hành trình của người đang xem -->
+    <section class="phan">
+      <div class="khung xh-hai-cot">
+        <div>
+          <h2>Hạng 4 và 5</h2>
+          <ol class="xep-hang" id="xh-ds" start="4"></ol>
+
+          <h2 class="xh-cach">Làm sao để lên bảng?</h2>
+          <ol class="xh-buoc">
+            <li><span class="ic dam" data-ic="sach"></span><b>Xem đủ các phần</b><span>ở trang Kiến thức, mỗi phần chỉ vài phút</span></li>
+            <li><span class="ic dam" data-ic="dung"></span><b>Đúng từ 80%</b><span>câu hỏi nhanh cuối mỗi chặng, làm lại được</span></li>
+            <li><span class="ic dam" data-ic="nhanh"></span><b>Xong càng sớm</b><span>hạng càng cao</span></li>
+          </ol>
+        </div>
+
+        <aside class="xh-hanh-trinh" id="xh-hanh-trinh" aria-labelledby="ht-tieu-de">
+          <h2 id="ht-tieu-de">Hành trình của anh chị</h2>
+          <p class="ht-ten-nguoi" id="ht-ten-nguoi"></p>
+          <div class="ht-vong-khung">
+            <svg viewBox="0 0 120 120" aria-hidden="true">
+              <circle cx="60" cy="60" r="52" class="ht-vong-nen"/>
+              <circle cx="60" cy="60" r="52" class="ht-vong-muc" id="ht-vong"/>
+            </svg>
+            <b id="ht-phan-tram">0%</b>
+          </div>
+          <ul class="ht-moc">
+            <li id="moc-phan"><span class="ic nho" data-ic="dung"></span><div><b>Xem đủ các phần</b><span class="moc-so">0</span><div class="moc-thanh"><span></span></div></div></li>
+            <li id="moc-cau"><span class="ic nho" data-ic="dung"></span><div><b>Đúng từ 80% câu hỏi nhanh</b><span class="moc-so">0</span><div class="moc-thanh"><span></span></div></div></li>
+          </ul>
+          <p class="ht-loi" id="ht-loi" aria-live="polite"></p>
+          <a class="nut" id="ht-nut-di" href="kien-thuc.html">Bắt đầu học</a>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Toàn bộ người học -->
+    <section class="phan nen-phu" aria-labelledby="tieu-de-tat-ca">
+      <div class="khung">
+        <h2 id="tieu-de-tat-ca">Tất cả người học</h2>
+        <p class="dan">Mọi anh chị đã ghi danh đều có tên ở đây. Ai hoàn thành thì có thứ hạng, năm người sớm nhất được lên bục.</p>
+        <div class="bo-loc">
+          <p class="dem-kq" id="xh-dem" aria-live="polite"></p>
+          <input class="o-tim" id="xh-tim" type="search" placeholder="Tìm theo tên hoặc phòng ban…" aria-label="Tìm người học theo tên hoặc phòng ban">
+        </div>
+        <ol class="xep-hang tat-ca" id="xh-tat-ca">
+          <li class="trong-rong">Đang tải danh sách người học…</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="phan">
+      <div class="khung">
+        <blockquote class="cau-chot">
+          Học để hiểu, không chỉ để lên bảng. Nhưng lên bảng thì cũng vui.
+        </blockquote>
+        <p class="xh-ghi-chu">Trang này hiện họ tên, phòng ban và tiến độ của người học, không hiện email. Thứ hạng tính theo thời điểm hoàn thành.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="chan-trang">
+    <div class="khung">
+      <p>Ba Sao · Bộ phận Đào tạo (L&amp;D)</p>
+      <p>Có thắc mắc? <a href="hoi-dap.html">Gửi câu hỏi vào hòm thư</a></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/icons.js"></script>
+  <script src="data/cau-hinh.js"></script>
+  <script src="assets/js/am-thanh.js"></script>
+  <script src="assets/js/nguoi-hoc.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
